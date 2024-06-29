@@ -10,7 +10,8 @@
  CONFIGURATION SECTION.                                           
  SOURCE-COMPUTER. ??????????.                                     
  OBJECT-COMPUTER. ??????????.                                     
- SPECIAL-NAMES. ????????????.                                     
+ SPECIAL-NAMES.
+ DECIMAL-POINT IS COMMA.
 **********************************                                
  INPUT-OUTPUT SECTION.                                            
  FILE-CONTROL.                                                    
