@@ -13,6 +13,10 @@
       *     E N V I R O N M E N T   D I V I S I O N                    *
       ******************************************************************
        ENVIRONMENT DIVISION.
+
+      ******************************************************************
+      *     C O N F I G U R A T I O N   S E C T I O N                  *
+      ******************************************************************
        CONFIGURATION SECTION.
       * SOURCE-COMPUTER. LPAR1-ZOS.
       * OBJECT-COMPUTER. LPAR2-ZOS.
@@ -85,7 +89,7 @@
        LINKAGE SECTION.
 
       ******************************************************************
-      *     D A T A   D I V I S I O N                                  *
+      *     P R O C E D U R E   D I V I S I O N                        *
       ******************************************************************
       * THIS DIVISION WILL DO ALL THE COMPUTATIONS                     *
       * AND PROCESS ALL THE DATA FOR THE PROGRAM                       *
