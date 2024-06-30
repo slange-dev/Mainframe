@@ -20,7 +20,7 @@
        CONFIGURATION SECTION.
       * SOURCE-COMPUTER. LPAR1-ZOS.
       * OBJECT-COMPUTER. LPAR2-ZOS.
-           SPECIAL-NAMES.
+       SPECIAL-NAMES.
            DECIMAL-POINT IS COMMA.
 
       ******************************************************************
