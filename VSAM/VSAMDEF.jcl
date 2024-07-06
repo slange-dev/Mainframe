@@ -8,8 +8,8 @@
 //**********************************************************************
 // SET FILENAME=HERC01.VSAM.PROJECT <- VSAM FILENAME
 // SET VOLNAME=PUB001               <- VOLUME NAME
-// SET DATANAME=HERC01.VSAM.DATA    <- VSAM DATA FILENAME
-// SET INDEXNAME=HERC01.VSAM.INDEX  <- VSAM INDEX FILENAME
+// SET DATANAME=HERC01.VSAM.PROJECT.DATA    <- VSAM DATA FILENAME
+// SET INDEXNAME=HERC01.VSAM.PROJECT.INDEX  <- VSAM INDEX FILENAME
 //**********************************************************************
 //* BATCH AREA
 //**********************************************************************
