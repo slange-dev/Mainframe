@@ -6,10 +6,10 @@
 //**********************************************************************
 //* PARAMETER AREA
 //**********************************************************************
-//* FILE
-// SET OLDFILENAME=HERC01.VSAM.PROJECT <- OLD VSAM FILENAME
-// SET NEWFILENAME=HERC01.VSAM.PROJECT <- NEW VSAM FILENAME
-//* DATA
+//* FILENAME
+// SET OLDFILENAME=HERC01.VSAM.PROJECT      <- OLD VSAM FILENAME
+// SET NEWFILENAME=HERC01.VSAM.PROJECT      <- NEW VSAM FILENAME
+//* DATANAME
 // SET OLDDATANAME=HERC01.VSAM.PROJECT.DATA <- OLD VSAM DATA FILENAME
 // SET NEWDATANAME=HERC01.VSAM.PROJECT.DATA <- NEW VSAM DATA FILENAME
 //**********************************************************************
@@ -26,4 +26,4 @@
   ALTER -
   &OLDDATANAME -
   NEWNAME(&NEWDATANAME)
-//
+//*
