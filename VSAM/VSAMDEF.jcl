@@ -6,10 +6,10 @@
 //**********************************************************************
 //* PARAMETER AREA
 //**********************************************************************
-// SET FILENAME=HERC01.VSAM.PROJECT <- VSAM FILENAME
-// SET VOLNAME=PUB001               <- VOLUME NAME
-// SET DATANAME=HERC01.VSAM.PROJECT.DATA    <- VSAM DATA FILENAME
-// SET INDEXNAME=HERC01.VSAM.PROJECT.INDEX  <- VSAM INDEX FILENAME
+// SET FILENAME=HERC01.VSAM.PROJECT              <- VSAM FILENAME
+// SET DATANAME=HERC01.VSAM.PROJECT.DATA         <- VSAM DATA FILENAME
+// SET INDEXNAME=HERC01.VSAM.PROJECT.INDEX       <- VSAM INDEX FILENAME
+// SET VOLNAME=PUB001                            <- VOLUME NAME
 //**********************************************************************
 //* BATCH AREA
 //**********************************************************************
@@ -30,4 +30,4 @@
                CISZ(512)) -
              INDEX (NAME(&INDEXNAME) -
                CISZ(512))
-//
+//*
