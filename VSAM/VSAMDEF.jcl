@@ -1,5 +1,5 @@
 //**********************************************************************
-//*** VSAM DEFINE CLUSTER DATA AND INDEX
+//*** DEFINE VSAM CLUSTER, DATA AND INDEX
 //**********************************************************************
 //VSAMDEF JOB CLASS=A,MSGCLASS=H,
 // USER=HERC01,PASSWORD=CUL8TR
