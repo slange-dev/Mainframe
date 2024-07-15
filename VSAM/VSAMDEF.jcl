@@ -13,7 +13,7 @@
 //**********************************************************************
 //* BATCH AREA
 //**********************************************************************
-//VSAMDEF   EXEC PGM=IDCAMS
+//VSAMDEF   EXEC PGM=IDCAMS,REGION=1024K
 //SYSPRINT  DD   SYSOUT=*
 //SYSIN     DD   *
 //*     DELETE &FILENAME
