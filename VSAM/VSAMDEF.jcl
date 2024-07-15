@@ -1,8 +1,8 @@
 //**********************************************************************
 //*** DEFINE VSAM CLUSTER, DATA AND INDEX
 //**********************************************************************
-//VSAMDEF JOB CLASS=A,MSGCLASS=H,
-// USER=HERC01,PASSWORD=CUL8TR
+//VSAMDEF JOB (1),'CREATE VSAM',CLASS=A,MSGCLASS=H,MSGLEVEL=(1,1),
+// USER=HERC01,PASSWORD=CUL8TR,REGION=4M,NOTIFY=HERC01
 //**********************************************************************
 //* PARAMETER AREA
 //**********************************************************************
@@ -14,8 +14,9 @@
 //* BATCH AREA
 //**********************************************************************
 //VSAMDEF   EXEC PGM=IDCAMS
-//SYSPRINT  DD   SYSOUT=A
+//SYSPRINT  DD   SYSOUT=*
 //SYSIN     DD   *
+//*     DELETE &FILENAME
      DEFINE CLUSTER(NAME(&FILENAME) -
                 VOL(&VOLNAME) -
                 INDEXED -
@@ -26,8 +27,9 @@
                 SHAREOPTIONS(2 3) -
                 LOG(NONE) -
                 CISZ(512)) -
-             DATA  (NAME(&DATANAME) -
+             DATA (NAME(&DATANAME) -
                CISZ(512)) -
              INDEX (NAME(&INDEXNAME) -
                CISZ(512))
-//*
+/*
+//
