@@ -1,8 +1,8 @@
 //**********************************************************************
 //*** ALTER VSAM NAME
 //**********************************************************************
-//VSAMNAM JOB CLASS=A,MSGCLASS=H,
-// USER=HERC01,PASSWORD=CUL8TR
+//VSAMNAM JOB (1),'ALTER VSAM',CLASS=A,MSGCLASS=H,MSGLEVEL=(1,1),
+// USER=HERC01,PASSWORD=CUL8TR,REGION=4M,NOTIFY=HERC01
 //**********************************************************************
 //* PARAMETER AREA
 //**********************************************************************
@@ -26,4 +26,5 @@
   ALTER -
   &OLDDATANAME -
   NEWNAME(&NEWDATANAME)
-//*
+/*
+//
